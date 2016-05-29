@@ -53,10 +53,8 @@ pause;
 %  In this part of the exercise, you will implement the cost and gradient
 %  for logistic regression. You neeed to complete the code in 
 %  costFunction.m
-
 %  Setup the data matrix appropriately, and add ones for the intercept term
 [m, n] = size(X);
-
 % Add intercept term to x and X_test
 X = [ones(m, 1) X];
 
